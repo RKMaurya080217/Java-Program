@@ -1,0 +1,31 @@
+package objectclass;
+
+import java.lang.reflect.Method;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class GetClassMethod
+{
+
+	public static void main(String[] args) throws SQLException
+	{
+		int count=0;
+		Object o=new String();
+		Class<? extends Object> c=o.getClass();
+		System.out.println(c);
+		System.out.println("Class Name "+c.getName());
+		Method[] m=c.getDeclaredMethods();
+		for(Method m1:m)
+		{
+			count++;
+			System.out.println(m1);
+		}
+		System.out.println(count);
+		
+		Connection conn=DriverManager.getConnection(null);
+		
+		
+	}
+
+}

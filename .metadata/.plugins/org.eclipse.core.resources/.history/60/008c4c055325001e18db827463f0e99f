@@ -1,0 +1,12 @@
+package objectclass;
+
+public class GetClassMethod
+{
+
+	public static void main(String[] args)
+	{
+		Object o=new String();
+		
+	}
+
+}

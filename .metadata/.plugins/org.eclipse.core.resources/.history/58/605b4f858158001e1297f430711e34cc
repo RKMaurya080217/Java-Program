@@ -1,0 +1,16 @@
+package com.getifno;
+
+import java.util.*;
+
+public class GetInfo
+{
+	Scanner sc
+	public static void main(String[] args)
+	{
+		ArrayList al=new ArrayList();
+		System.out.println("Enter your name : ");
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package objectclass;
+
+import java.lang.reflect.Method;
+
+public class GetClassMethod
+{
+
+	public static void main(String[] args)
+	{
+		int count=0;
+		Object o=new String();
+		Class c=o.getClass();
+		System.out.println(c);
+		System.out.println("Class Name "+c.getName());
+		Method[] m=c.getDeclaredMethods();
+		for(Method m1:m)
+		{
+			count++;
+			System.out.println(m1);
+		}
+		System.out.println(count);
+	}
+
+}

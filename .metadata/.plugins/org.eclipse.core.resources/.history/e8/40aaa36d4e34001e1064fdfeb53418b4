@@ -1,0 +1,17 @@
+package JavaFundamentals;
+
+public class Test
+{
+
+	public static void main(String[] args)
+	{
+		byte b=0;
+		for(;true;)
+		{
+			b++;
+			System.out.println(b);
+		}
+
+	}
+
+}

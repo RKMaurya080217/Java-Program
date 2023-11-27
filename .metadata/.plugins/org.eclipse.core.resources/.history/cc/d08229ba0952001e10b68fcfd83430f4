@@ -1,0 +1,16 @@
+package src.main;
+
+import java.util.*;
+
+public class CollectionDemo
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+		pQueue.add(10);
+
+	}
+
+}

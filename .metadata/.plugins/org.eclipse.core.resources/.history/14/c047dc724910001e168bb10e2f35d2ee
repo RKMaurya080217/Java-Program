@@ -1,0 +1,26 @@
+package JavaFundamentals;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		//byteDataType();
+		
+		//shortDataType();
+		
+		//intDataType();
+		
+		//longDataType();
+		
+		floatDataType();
+		
+		
+		
+	}
+	
+	 static void floatDataType()
+	 {
+		 float f=10.5f;
+		 System.out.println(f);
+	 }
+	 
+}

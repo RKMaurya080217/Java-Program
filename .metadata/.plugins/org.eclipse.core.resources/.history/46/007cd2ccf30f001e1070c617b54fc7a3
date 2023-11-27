@@ -1,0 +1,10 @@
+package JavaFundamentals;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		byte b=x;;
+		System.out.println(b);
+	}
+
+}

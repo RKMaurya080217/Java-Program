@@ -1,0 +1,18 @@
+package com.getifno;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+import com.opencsv.CSVReader;
+
+public class ReadDataFromCSVFile
+{
+
+	public static void main(String[] args) throws FileNotFoundException
+	{
+		String filePath = "C:\\Users\\Pooja\\Desktop\\MESSAGE_SENT.CSV";
+		CSVReader csvReader = new CSVReader(new FileReader(filePath));
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.getifno;
+
+import java.util.*;
+
+public class GetInfo
+{
+
+	public static void main(String[] args)
+	{
+		ArrayList al=new ArrayList();
+		Collections c =new GetInfo();
+
+	}
+
+}

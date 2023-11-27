@@ -1,0 +1,19 @@
+package JavaFundamentals;
+
+public class RangeOfAllDataType
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println("Range of Byte = "+Byte.MAX_VALUE);
+		System.out.println("Range of Short = "+Short.MAX_VALUE);
+		System.out.println("Range of Integer = "+Integer.MAX_VALUE);
+		System.out.println("Range of Long = "+Long.MAX_VALUE);
+		System.out.println("Range of Float = "+Float.MAX_VALUE);
+		System.out.println("Range of Double = "+Double.MAX_VALUE);
+		System.out.println("Range of Char = "+Character.MAX_VALUE);
+		System.out.println("Range of Boolean = "+Boolean.MAX_VALUE);
+
+	}
+
+}

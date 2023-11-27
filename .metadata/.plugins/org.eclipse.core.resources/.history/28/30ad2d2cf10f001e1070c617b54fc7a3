@@ -1,0 +1,14 @@
+package JavaFundamentals;
+
+public class JavaIdentifiers {
+
+	public static void main(String[] args) {
+		int String=888;
+		int Runnable=999;
+		
+		System.out.println("String Values : "+String);
+		System.out.println("Runnable Values : "+Runnable);		
+
+	}
+
+}

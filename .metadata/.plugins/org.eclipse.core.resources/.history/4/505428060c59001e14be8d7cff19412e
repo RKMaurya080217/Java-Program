@@ -1,0 +1,14 @@
+package com.getifno;
+
+public class ReadDataFromCSVFile
+{
+
+	public static void main(String[] args)
+	{
+		String messageSentFilePath = "C:\\Users\\Pooja\\Desktop\\MESSAGE_SENT.CSV";
+
+//		CSVReader csvReader = new CSVReader(new FileReader(filePath));
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package JavaFundamentals;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		byte b=10;
+		//byte b=127;
+		//byte b=128;
+		//byte b=10.5;
+		//byte b=true;
+		//byte b="durga";
+		System.out.println(b);
+	}
+
+}

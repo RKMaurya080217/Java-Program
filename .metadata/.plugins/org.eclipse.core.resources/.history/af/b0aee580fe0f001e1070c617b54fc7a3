@@ -1,0 +1,40 @@
+package JavaFundamentals;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		//byteDataType();
+		
+		//shortDataType();
+		
+	}
+	
+	static void byteDataType()
+	{
+		byte b=10;
+		//byte b=127;
+		//byte b=128;
+		//byte b=10.5;
+		//byte b=true;
+		//byte b="durga";
+		System.out.println("Byte Values : "+b);
+	}
+	
+	static void shortDataType()
+	{
+		short s=10;
+		//short s=32767;
+		//short s=32768;
+		//short s=true;
+		//short s=10.5;
+		//sort s="durga";
+		System.out.println("Short Values : "+s);
+		
+	}
+	
+	 static void intDataType()
+	 {
+		 int x=2147483647;
+		 System.out.println(x);
+	 }
+}
